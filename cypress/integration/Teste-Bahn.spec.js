@@ -3,11 +3,11 @@
 
 describe('Certificação BAHN', function() {
     it('Login na aplicação',function() {
-        cy.visit('https://proxys.bahn.nordware.io/Dashboard/')
+        cy.visit('')
         cy.get('#username').click ()
-        cy.get('#username').type('i.garces')
+        cy.get('#username').type('')
         cy.get('#password').click ()
-        cy.get('#password').type('Teste@1000')
+        cy.get('#password').type('')
         cy.get('#kc-login').click ()
     });
     it('Selecionar e-commerce',function() {
